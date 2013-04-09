@@ -81,6 +81,11 @@ table th {
   background-image: -webkit-linear-gradient(top, #ffff00 0%, #ffffff 100%);
   background-image: -o-linear-gradient(top, #ffff00 0%, #ffffff 100%);
   background-image: linear-gradient(to bottom, #ffff00 0%, #ffffff 100%);
+  -webkit-transition: all 100ms;
+  -moz-transition: all 100ms;
+  -o-transition: all 100ms;
+  -ms-transition: all 100ms;
+  transition: all 100ms;
 }
 .polaroid img {
   max-width: 100%;
