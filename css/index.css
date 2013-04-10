@@ -115,7 +115,7 @@ table th {
   color: black;
 }
 .container {
-  width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   zoom: 1;
 }
@@ -128,10 +128,22 @@ table th {
   clear: both;
 }
 .content {
-  width: 660px;
+  width: 66%;
   float: left;
 }
+@media screen and (max-width: 840px) {
+  .content {
+    width: auto;
+    float: none;
+  }
+}
 .side {
-  width: 330px;
+  width: 33%;
   float: left;
+}
+@media screen and (max-width: 840px) {
+  .side {
+    width: auto;
+    float: none;
+  }
 }
